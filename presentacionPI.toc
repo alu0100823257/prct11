@@ -1,0 +1,3 @@
+\beamer@endinputifotherversion {3.10pt}
+\beamer@sectionintoc {1}{Primera Secci\IeC {\'o}n}{3}{0}{1}
+\beamer@sectionintoc {2}{Segunda Secci\IeC {\'o}n}{4}{0}{2}

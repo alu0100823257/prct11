@@ -1,0 +1,158 @@
+\documentclass{beamer}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+
+\newtheorem{definicion}{Definición}
+\newtheorem{ejemplo}{Ejemplo}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\title[E numero PI]{Presentación historica}
+\author[Shaila Verona Rodriguez]{Técnicas Experimentales}
+\date[25-04-2014]{Viernes 25 de Abril de 2014}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%\usetheme{Madrid}
+%\usetheme{Antibes}
+%\usetheme{tree}
+%\usetheme{classic}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+  
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  
+\begin{frame}
+
+%  \includegraphics[width=0.15\textwidth]{img/ullesc}
+%  \hspace*{7.0cm}
+%  \includegraphics[width=0.16\textwidth]{img/fmatesc}
+  \titlepage
+
+  \begin{small}
+    \begin{center}
+     Facultad de Matemáticas \\
+     Universidad de La Laguna
+    \end{center}
+  \end{small}
+
+\end{frame}
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  
+
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  
+\begin{frame}
+  \frametitle{Índice}  
+  \tableofcontents[pausesections]
+\end{frame}
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  
+
+
+\section{Primera Sección}
+
+
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  
+\begin{frame}
+
+\frametitle{Primera Sección}
+
+\begin{definicion}
+$\Pi$  es la relación entre la longitud de una circunferencia y su diámetro, en geometría euclidiana. Se emplea frecuentemente en matemáticas, física e ingeniería. El valor numérico de $\pi$,es el siguiente:
+
+     $\pi= 3,14159265358979323846$
+
+El valor de $\pi$ se ha obtenido con diversas aproximaciones a lo largo de la historia, es una de las constantes matemáticas que más aparece. 
+\alert{Matemáticas}~\cite{pi}
+\end{definicion}
+
+\end{frame}
+%++++++++++++3,14159265359++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  
+
+\section{Segunda Sección}
+
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  
+\begin{frame}
+
+\frametitle{Segunda Sección}
+
+\begin{block}{Historia de PI}
+  \begin{definicion}
+ La búsqueda del mayor número de decimales del número $\Pi$ ha supuesto un esfuerzo constante de numerosos científicos a lo largo de la historia.
+ Como por ejemplo en Egipto que afirmaban que el área de un círculo es similar a la de un cuadrado cuyo lado es igual al diámetro de un círculo disminuido en 1/9.
+  \end{definicion}
+\end{block}
+
+\end{frame}
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  
+
+\section{Fórmulas}
+
+\subsection{Algunas formulas matemáticas}
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  
+\begin{frame}
+
+\frametitle{Primera Sección}
+
+\begin{definicion}
+$\pi$  es la relación entre la longitud de una circunferencia y su diámetro, en geometría euclidiana. Se emplea frecuentemente en matemáticas, física e ingeniería. El valor numérico de $\pi$,es el siguiente:
+\begin{equation}
+     $\pi= 3,14159265358979323846$
+\end{equation}
+El valor de $\pi$ se ha obtenido con diversas aproximaciones a lo largo de la historia, es una de las constantes matemáticas que más aparece. 
+\alert{wikipedia}~\cite{wikipedia}
+\end{definicion}
+
+\end{frame}
+\frametitle{Fórmula de Mesopotamia(aproximada)}
+
+    $\pi 3 + (1)(8) = 3,125$
+
+\end{frame}
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
+\begin{frame}
+ \frametitle{Fórmula China (aproximación)}
+   $\pi(22)/(7) = (355)/(113)$ 
+\end{frame}
+
+
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  
+\begin{frame}
+\frametitle{Fórmula Antigüedad clásica}
+
+
+    $\pi(377)/(120)= 3.416$
+
+\end{frame}
+
+
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
+\begin{frame}
+ \frametitle{Fórmula de la India (solo 11 digitos)}
+ 
+ $\pi=3,14159265359$
+\end{frame}
+
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  
+
+\section{Bibliografía}
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  
+\begin{frame}
+  \frametitle{Bibliografía}
+
+  \begin{thebibliography}{10}
+
+    \beamertemplatebookbibitems
+    \bibitem[Matemáticas]{pi}  
+Matematicas
+
+    \beamertemplatebookbibitems
+    \bibitem[wikipedia]{Wikipedia}  
+    wikipedia
+    {\small $http://es.wikipedia.org/wiki/$
+
+    \beamertemplatebookbibitems
+    \bibitem[URL: CTAN]{latex} 
+    CTAN. {\small $http://www.ctan.org/$}
+
+  \end{thebibliography}
+\end{frame}
+
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  
+\end{document}
